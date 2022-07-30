@@ -1,0 +1,164 @@
+
+body{
+    background-image: url(black.jpg);
+    
+    scroll-behavior: smooth;
+}
+
+/* @media (max-width:1200px){
+
+} */
+
+
+
+
+
+
+hr{
+    color: white;
+    font-size: larger;
+}
+
+.navbar{
+    position: sticky;
+}
+
+/* navbar */
+
+.container{
+    margin-top: 3.125rem;
+    
+}
+
+/* cover */
+main .card-img-overlay{
+    padding-left: 9.375rem;
+    margin-top: 12.5rem;
+    color: rgb(247, 238, 238);
+    font-size: larger;
+    font-style: italic;
+
+}
+/* covertext */
+main .card-img-overlay .card-text2{
+    
+    padding-left: 4.6875rem;
+}
+.card h1{
+    color: brown;
+
+}
+
+
+
+/* imgabout */
+.bg-image{
+    padding-left: 21.875rem;
+    margin-top: 1.25rem;
+}
+
+/* textabout */
+
+.text-muted{
+    margin-top: 4.375rem;
+    font-size: large;
+    font-style: italic;
+    padding-right: 2.5rem;
+}
+
+
+/* education */
+
+.tit{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 4.375rem;
+    color:brown;
+    font-style: italic;
+}
+
+
+/* experiance */
+
+.col1 .card{
+    
+    width: 20.625rem;
+    background-color:rgb(60, 58, 58);
+    color: white;
+   
+}
+/* experianceimg */
+.row .col1 {
+    padding-left: 4.375rem;
+}
+.col1{
+    transition: 0.5s;
+}
+.col1 div:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+
+}
+
+
+
+/* skills */
+
+.progress{
+    width: 25%;
+    
+}
+/* skillspar */
+.per{
+    padding-left: 31rem;
+    margin-top: 6.25rem;
+    margin-bottom: 9.375rem;
+    
+
+}
+.progress{
+    width: 50%;
+    
+   
+}
+
+
+/* footer */
+.end {
+    
+    text-align: center;
+    
+    
+    
+  
+}
+
+a:link{
+   text-decoration: none;
+}
+
+/* contact */
+.stats{
+    color:brown;
+    font-size: 20px;
+    background-image: url(https://64.media.tumblr.com/4958ec8af23fbebf9c8ce4736581d8f3/8685257c047a19e5-ff/s640x960/abe242cee391d69d4c5be38987258bbc4326a4af.gifv);
+
+}
+
+.stats i{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+/* skillsimg */
+.per{
+   
+    background-image: url(https://64.media.tumblr.com/4958ec8af23fbebf9c8ce4736581d8f3/8685257c047a19e5-ff/s640x960/abe242cee391d69d4c5be38987258bbc4326a4af.gifv);
+
+}
+
+
+
