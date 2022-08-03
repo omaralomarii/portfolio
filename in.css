@@ -5,11 +5,32 @@ body{
     scroll-behavior: smooth;
 }
 
-/* @media (max-width:1200px){
-
-} */
 
 
+
+
+
+
+/* navbar background */
+.navbar{
+    background-image: url(cover303.jpg);
+}
+ .logo{
+   position: absolute;
+   top: 5px;
+   left: 10px;
+ 
+}
+@media screen and (max-width:480px){
+   main .navbar .btn 
+    {
+       width: 30%;
+       height: 20%;
+       margin: 2px;
+
+    }
+    
+}
 
 
 
@@ -18,6 +39,8 @@ hr{
     color: white;
     font-size: larger;
 }
+
+
 
 .navbar{
     position: sticky;
@@ -30,9 +53,14 @@ hr{
     
 }
 
+/* ..................................................................................... */
 /* cover */
+
+
+
+
 main .card-img-overlay{
-    padding-left: 9.375rem;
+    /* padding-left: 9.375rem; */
     margin-top: 12.5rem;
     color: rgb(247, 238, 238);
     font-size: larger;
@@ -44,16 +72,44 @@ main .card-img-overlay .card-text2{
     
     padding-left: 4.6875rem;
 }
+
 .card h1{
     color: brown;
+    animation-name: na;
+    animation-duration: 7s;
+    animation-iteration-count: infinite ;
+    position: relative;
+    
 
 }
 
 
+.card P{
+font-size: xx-large;
+}
 
+
+@keyframes na{
+    0%{color: brown; left: 200px; top: 0px; }
+    25%{color: cadetblue; left: 50px; top: 0px;}
+    50%{color: brown; left:  200px; top: 0px; }
+    75%{color: cadetblue;left: 50px; top: 0px;}
+    100%{color: brown;left: 200px; top: 0px;}
+
+ 
+}
+
+
+
+/* .......................................................................... */
 /* imgabout */
+
+
+
+
+
 .bg-image{
-    padding-left: 21.875rem;
+    /* padding-left: 21.875rem; */
     margin-top: 1.25rem;
 }
 
@@ -63,11 +119,18 @@ main .card-img-overlay .card-text2{
     margin-top: 4.375rem;
     font-size: large;
     font-style: italic;
-    padding-right: 2.5rem;
+   
+}
+.bg-image{
+    text-align: center;
+
 }
 
 
+/* .......................................................................... */
 /* education */
+/* title for all */
+
 
 .tit{
     text-align: center;
@@ -78,49 +141,49 @@ main .card-img-overlay .card-text2{
 }
 
 
+/* ............................................................................... */
 /* experiance */
+
+
 
 .col1 .card{
     
     width: 20.625rem;
-    background-color:rgb(60, 58, 58);
+    /* background-color:rgb(60, 58, 58); */
     color: white;
    
+   
 }
-/* experianceimg */
-.row .col1 {
-    padding-left: 4.375rem;
-}
-.col1{
-    transition: 0.5s;
-}
+
+ .row .col1{
+    
+    padding-left: 70px;
+    
+ }
+/* .................................................................................. */
+
+
+/* experiance&skills */
+
 .col1 div:hover{
     transform: scale(1.1);
     text-decoration: underline;
+    /* background-color: rgb(44, 143, 168); */
+    background-color: darkgray;
+    
+  
 
 }
 
 
 
-/* skills */
-
-.progress{
-    width: 25%;
+.col1 .card{
+    
+    background-color: black;
     
 }
-/* skillspar */
-.per{
-    padding-left: 31rem;
-    margin-top: 6.25rem;
-    margin-bottom: 9.375rem;
-    
 
-}
-.progress{
-    width: 50%;
-    
-   
-}
+
 
 
 /* footer */
@@ -152,13 +215,93 @@ a:link{
 }
 
 
+/* .............................................................................................................................................. */
+/* skills */
 
-/* skillsimg */
-.per{
-   
-    background-image: url(https://64.media.tumblr.com/4958ec8af23fbebf9c8ce4736581d8f3/8685257c047a19e5-ff/s640x960/abe242cee391d69d4c5be38987258bbc4326a4af.gifv);
 
+/* @media screen and (max-width:480px){
+    .skillss 
+     {
+        display: flex;
+         
+     }
+     
+ } */
+
+.skillss{
+    /* width: 100%; */
+    height: 90vh;
+    display: flex;
+    margin: 0 auto;
+    /* align-items: center; */
+    justify-content: center;
+
+    
+}
+
+.skillss ul{
+    list-style: none;
+    /* max-width: 30%; */
+    margin: 0 20px;
+    /* padding: 70px; */
+}
+.skillss ul li:nth-child(1){
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid white;
+
+
+}
+p{
+    /* font-size: 30px; */
+    font-weight: bold;
 }
 
 
 
+.skillss ul h1{
+    color: brown;
+    border-bottom:4px solid brown;
+}
+
+
+.skillss ul li:nth-child(2){
+    color: grey;
+    padding: 20px;
+    border-bottom: 1px solid rgb(173, 157, 157);
+
+
+}
+.skillss ul li:nth-child(3){
+    color:  grey;
+    padding: 20px;
+    border-bottom: 1px solid rgb(173, 157, 157);
+
+
+}
+.skillss ul li:nth-child(4){
+    color:  grey;
+    padding: 20px;
+    border-bottom: 1px solid rgb(173, 157, 157);
+
+
+}
+.skillss ul li:nth-child(5){
+    color:  grey;
+    padding: 20px;
+    border-bottom: 1px solid rgb(173, 157, 157);
+
+
+}
+
+/* ........................................................................................................................................... */
+
+
+/* hoverbutomn */
+.fa-solid{
+    color: grey;
+    
+}
+.fa-solid :hover{
+    color: black;
+}
