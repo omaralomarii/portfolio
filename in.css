@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(black.jpg);
+    background-image: url(./photos/black.jpg);
     
     scroll-behavior: smooth;
 }
@@ -11,9 +11,9 @@ body{
 
 
 
-/* navbar background */
+/* navbar background d*/
 .navbar{
-    background-image: url(cover303.jpg);
+    background-image: url(./photos/cover303.jpg);
 }
  .logo{
    position: absolute;
@@ -21,13 +21,14 @@ body{
    left: 10px;
  
 }
-@media screen and (max-width:480px){
-   main .navbar .btn 
+@media screen and (min-width:350px){
+   main .navbar 
     {
-       width: 30%;
+       /* width: 30%;
        height: 20%;
-       margin: 2px;
-
+       margin: 2px; */
+    
+     flex-wrap: nowrap;
     }
     
 }
@@ -99,6 +100,13 @@ font-size: xx-large;
  
 }
 
+@media screen and (max-width:700px) {
+    .card h1{
+        animation-duration: 0s;
+    }
+    
+}
+
 
 
 /* .......................................................................... */
@@ -110,15 +118,18 @@ font-size: xx-large;
 
 .bg-image{
     /* padding-left: 21.875rem; */
-    margin-top: 1.25rem;
+    margin-top: 5.25rem;
+    padding-left: 100px;
+
 }
 
 /* textabout */
 
 .text-muted{
     margin-top: 4.375rem;
-    font-size: large;
+    font-size: 22px;
     font-style: italic;
+
    
 }
 .bg-image{
@@ -169,7 +180,8 @@ font-size: xx-large;
     transform: scale(1.1);
     text-decoration: underline;
     /* background-color: rgb(44, 143, 168); */
-    background-color: darkgray;
+    /* background-color: darkgray; */
+    background-color: black;
     
   
 
