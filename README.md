@@ -1,4 +1,3 @@
-# project 
-https://omaralomarii.github.io/project/
+Live url : https://omaralomarii.github.io/portfolio/
 
-https://www.figma.com/file/JiyouTQAFpCxo7jyqPin1L/Untitled?node-id=0%3A1
+link figma: https://www.figma.com/file/JiyouTQAFpCxo7jyqPin1L/Untitled?node-id=0%3A1
